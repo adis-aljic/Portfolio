@@ -1,0 +1,9 @@
+$(`#title`).click(()=>window.location.reload())
+$(document).ready(function(){
+$('.sidenav').sidenav();
+$('.tabs').tabs();
+$('.scrollspy').scrollSpy();
+$('.materialboxed').materialbox();
+$('.tooltipped').tooltip();
+$(`.text-contact`).css("margin-right","2rem")
+});

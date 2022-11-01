@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lang_list {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 15vh;
+  background-color: rgb(100, 154, 235);
+  border-radius: 15px;
+}
+
+.lang_list li {
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  font-style: "Poppins";
+}
+
+@media (max-width: 480px) {
+  .lang_list li {
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-style: "Poppins";
+  }
+}
+body {
+  background: linear-gradient(34deg, rgb(200, 228, 255) 4%, rgb(126, 135, 245) 35%, rgb(49, 102, 241) 60%, rgb(18, 58, 161) 91%);
+}
+
+li {
+  padding: 0.2rem;
+}
+
+.row {
+  padding-bottom: 1rem;
+}
+
+#about_me, #portfolio {
+  padding: 15rem 0 5rem 0;
+}
+
+#contact_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#top {
+  float: right;
+  margin: 1rem 3rem;
+  width: 5rem;
+}
+
+#title {
+  cursor: pointer;
+}
+
+img {
+  width: 5rem;
+}/*# sourceMappingURL=index.css.map */
