@@ -21,13 +21,13 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#about_me"> About me</a></li>
+          <li><a href="#about_me">Introduction</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
 
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#about_me">About me</a></li>
+          <li><a href="#about_me">Introduction</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -35,10 +35,11 @@
     </nav>
   </header>
 
-
+  
   <section class="section container scrollspy" id="about_me">
     <div class="row">
       <div class="col s12 l4">
+        <img class="responsive-img  materialboxed center" id="profile_img" src="./img/adis.jpeg" alt="" srcset="">
         <h2 class="white-text text-darken-4">What I do...</h2>
         <p class="white-text">My name is Adis Aljic and I am self-taught web developer. 
           You can download my resume <a href="#"><u>here</u></a>.
@@ -47,40 +48,47 @@
           On the side you can find some of languages, libary`s and frameworks that I am comfortable with</p>
         </p>
       </div>
-
+      
       <div class="col s12 l6 offset-l2 ">
         <ul class="tabs transparent">
-          <li class="tab col s4">
+          <li class="tab col s3">
             <a href="#frontend" class="active white-text text-darken-3 transparent ">Frontend</a>
           </li>
-          <li class="tab col s4">
+          <li class="tab col s3">
             <a href="#backend" class="white-text text-darken-3 transparent">Backend</a>
           </li>
-          <li class="tab col s4">
+          <li class="tab col s3">
+            <a href="#dmbs" class="white-text text-darken-3 transparent">DMBS</a>
+          </li>
+          <li class="tab col s3">
             <a href="#rest" class="white-text text-darken-3 transparent">Other</a>
           </li>
         </ul>
 
         <div id="frontend" class="col s12">
-          <p class="flow-text white-text text-darken-4 center ">Frontend</p>
-          <ul class="transparent lighten-1 z-depth-2 lang_list">
-            <li><img src="./img/jquery.png" title="JQuery" srcset=""></li>
-            <li><img src="./img/react.png" title="React" srcset=""></li>
-            <li><img src="./img/sass.png" title="SCSS" srcset=""></li>
-            <li><img src="./img/materialize-css-tutorial.png" title="Materialize CSS" srcset=""></li>
+          <ul class="transparent lighten-1 z-depth-2 lang_list carousel">
+            <li class="carousel-item"><img src="./img/jquery.png" title="JQuery" srcset=""></li>
+            <li class="carousel-item"><img src="./img/react.png" title="React" srcset=""></li>
+            <li class="carousel-item"><img src="./img/sass.png" title="SCSS" srcset=""></li>
+            <li class="carousel-item"><img src="./img/materialize-css-tutorial.png" title="Materialize CSS" srcset=""></li>
+            <li class="carousel-item"><img src="./img/bootstrap.png" title="Bootstrap" srcset=""></li>
           </ul>
         </div>
         <div id="backend" class="col s12 ">
-          <p class="flow-text white-text text-darken-4 center">Backend</p>
-          <ul class="transparent lighten-1 z-depth-2  lang_list">
+          <ul class="transparent lighten-1 z-depth-2 lang_list">
             <li><img src="./img/1200px-Node.js_logo.svg.png" title="NodeJs" srcset=""></li>
           </ul>
         </div>
-        <div id="rest" class="col s12 ">
-          <p class="flow-text white-text text-darken-4 center">Other</p>
+        <div id="dmbs" class="col s12 ">
           <ul class="transparent lighten-1 z-depth-2 lang_list">
-            <li><img src="./img/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs-1024x276.png" title="Mongo DB" srcset=""></li>
-            <li><img src="./img/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" title="MYSQL"></li>
+            <li ><img src="./img/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs-1024x276.png" title="Mongo DB" srcset=""></li>
+            <li ><img src="./img/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" title="MYSQL"></li>
+          </ul>
+        </div>
+        <div id="rest" class="col s12 ">
+          <ul class="transparent lighten-1 z-depth-2 lang_list">
+            <li ><img src="./img/github.jpg" title="GitHub" srcset=""></li>
+            <li ><img src="./img/Postman-logo-orange-2021_1155x.png" title="Postman"></li>
           </ul>
         </div>
 
@@ -93,7 +101,7 @@
   <section class="container section scrollspy" id="portfolio">
     <div class="row">
       <div class="col s10 offset-s1 l6 offset-l2">
-        <div class="card blue lighten-1">
+        <div class="card blue lighten-1 " >
           <div class="card-content white-text">
             <span class="card-title">Portfolio</span>
             <p>This is stricly frontend application. It is written in HTML, for styling I used SCSS and Materialize
@@ -143,7 +151,7 @@
     <div class="row">
       <div class="col s10 offset-s1 l6 offset-l4 ">
         <div class="card blue ">
-          <div class="card-content white-text">
+          <div class="card-content white-text ">
             <span class="card-title">Dom aplication</span>
             <p>Theese are frontend applications. It is written in HTML, for styling I used CSS.
               For DOM manupilation I used vanila JS. Some of them also use API. While learning dom manupilation I build
@@ -159,7 +167,7 @@
               <div class="row">
 
                 <div class="col s12 l12">
-                  <ul class="tabs">
+                  <ul class="tabs transparent">
                     <li class="tab col s6">
                       <a href="#github_profile" class="active indigo-text text-darken-4">Github</a>
                     </li>
