@@ -8,6 +8,7 @@ $('.tooltipped').tooltip();
 $(`.text-contact`).css("margin-right","2rem")
 $(`.card`).css("border-radius","15px")
 $(`.indicator`).css("border-radius","10px")
-$('.carousel').carousel();
+$('#front_car').carousel();
+// $('#rest_car').carousel();
 
 });
