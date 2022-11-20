@@ -44,7 +44,7 @@ li{
 padding-bottom: 1rem;
 }
 #about_me, #portfolio{
-    padding: 15rem 0 5rem 0;
+    margin: 15rem 0 5rem 0;
 }
 
 #contact_list{
@@ -59,10 +59,15 @@ padding-bottom: 1rem;
     cursor: pointer;
 }
 
-
+.about_me{
+    text-align: justify;
+    padding: 1rem;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+}
 
 #profile_img{
     // width: 10rem;
     border-radius: 15px;
-    margin: auto;
 }
+

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(34deg, rgb(200, 228, 255) 4%, rgb(126, 135, 245) 35%, rgb(49, 102, 241) 60%, rgb(18, 58, 161) 91%);
+}
+
+#physics {
+  padding: 5rem;
+}
+
+.exp_phy ul {
+  list-style-type: square;
+}
+
+#about_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10rem;
+}
+
+#card_about_me {
+  border-radius: 15px;
+  height: 35rem;
+}
+#card_about_me img {
+  border-radius: 15px;
+}
+
+#contact_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+#contact_list #contact_list_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact_list #contact_list_text li {
+  margin-top: 1rem;
+}
+#contact_list #contact_list_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 1rem;
+}
+#contact_list h3 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer #top_contact {
+  height: 5rem;
+  padding-right: 5rem;
+  float: right;
+}
+
+#resume_icons_contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+#resume_icons_contact li {
+  padding-left: 1rem;
+}/*# sourceMappingURL=resume.css.map */

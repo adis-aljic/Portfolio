@@ -17,92 +17,79 @@
     <nav class="nav-wrapper transparent">
       <div class="container">
         <a id="title" class="brand-logo center center-align scrollspy">Portfolio</a>
+
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#about_me">Introduction</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="/resume.html">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
 
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
           <li><a href="#about_me">Introduction</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="/resume.html">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  
+
   <section class="section container scrollspy" id="about_me">
     <div class="row">
-      <div class="col s12 l4">
-        <img class="responsive-img " id="profile_img" src="./img/adis.jpeg" alt="" srcset="">
+
+      <div class="col s10 offset-s1 l3 align-wrapper offset-l4">
         <h2 class="white-text text-darken-4">What I do...</h2>
-        <p class="white-text">My name is Adis Aljic and I am self-taught web developer. 
-          You can download my resume <a href="#"><u>here</u></a>.
+        <p class="white-text left about_me">My name is Adis Aljic and I am self-taught web developer.
+          You can download my resume <a href="#"><u>here</u></a>, or visit my resume website <a
+            href="#"><u>here</u></a>.
         </p>
-        <p class="white-text">
-          On the side you can find some of languages, libary`s and frameworks that I am comfortable with</p>
+        <p class="white-text about_me">
+          On the side you can find some of languages, library`s and frameworks that I am comfortable with</p>
         </p>
       </div>
-      
-      <div class="col s12 l6 offset-l2 ">
+
+      <!-- <div class="col s10 offset-s1 l5 offset-l1">
         <ul class="tabs transparent">
-          <li class="tab col s3">
-            <a href="#frontend" class="active white-text text-darken-3 transparent ">Frontend</a>
+          <li class="tab col s12">
+            <a href="#tools" class="active white-text text-darken-3 transparent ">Tools</a>
           </li>
-          <li class="tab col s3">
-            <a href="#backend" class="white-text text-darken-3 transparent">Backend</a>
-          </li>
-          <li class="tab col s3">
-            <a href="#dmbs" class="white-text text-darken-3 transparent">DMBS</a>
-          </li>
-          <li class="tab col s3">
-            <a href="#rest" class="white-text text-darken-3 transparent">Other</a>
-          </li>
-        </ul>
 
-        <div id="frontend" class="col s12">
-          <ul class="transparent lighten-1 z-depth-2 lang_list carousel" id="front_car">
+        </ul> -->
+
+
+        <div id="tools" class="col s12 offset-s1 l4 offset-l1 ">
+          <ul class="carousel transparent lighten-1 z-depth-2 lang_list" id="back_car">
             <li class="carousel-item"><img src="./img/jquery.png" title="JQuery" srcset=""></li>
-            <li class="carousel-item"><img src="./img/react.png" title="React" srcset=""></li>
+            <!-- <li class="carousel-item"><img src="./img/react.png" title="React" srcset=""></li> -->
             <li class="carousel-item"><img src="./img/sass.png" title="SCSS" srcset=""></li>
-            <li class="carousel-item"><img src="./img/materialize-css-tutorial.png" title="Materialize CSS" srcset=""></li>
-            <li class="carousel-item"><img src="./img/bootstrap.png" title="Bootstrap" srcset=""></li>
-          </ul>
-        </div>
-        <div id="backend" class="col s12 ">
-          <ul class="transparent lighten-1 z-depth-2 lang_list">
-            <li><img src="./img/1200px-Node.js_logo.svg.png" title="NodeJs" srcset=""></li>
-          </ul>
-        </div>
-        <div id="dmbs" class="col s12 ">
-          <ul class="transparent lighten-1 z-depth-2 lang_list">
-            <li ><img src="./img/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs-1024x276.png" title="Mongo DB" srcset=""></li>
-            <li ><img src="./img/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" title="MYSQL"></li>
-          </ul>
-        </div>
-        <div id="rest" class="col s12 ">
-          <ul class="   transparent lighten-1 z-depth-2 lang_list" >
-            <li class="carousel-item" ><img src="./img/github.jpg" title="GitHub" srcset=""></li>
+            <li class="carousel-item"><img src="./img/materialize-css-tutorial.png" title="Materialize CSS" srcset="">
+            </li>
+            <li class="carousel-item"><img src="./img/1200px-Node.js_logo.svg.png" title="NodeJs" srcset=""></li>
+            <!-- <li class="carousel-item"><img src="./img/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs-1024x276.png" title="Mongo DB" srcset=""></li> -->
+            <li class="carousel-item"><img src="./img/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+                title="MYSQL"></li>
+            <li class="carousel-item"><img src="./img/github.jpg" title="GitHub" srcset=""></li>
             <li class="carousel-item"><img src="./img/Postman-logo-orange-2021_1155x.png" title="Postman"></li>
-            <li class="carousel-item"><img src="./img/microsoft-excel-2010-logo-74662CA830-seeklogo.com.jpg" title="Excel"></li>
+            <li class="carousel-item"><img src="./img/microsoft-excel-2010-logo-74662CA830-seeklogo.com.jpg"
+                title="Excel"></li>
           </ul>
         </div>
+
 
       </div>
-    </div>
     </div>
   </section>
 
 
   <section class="container section scrollspy" id="portfolio">
     <div class="row">
-      <div class="col s10 offset-s1 l6 offset-l2">
-        <div class="card blue lighten-1 " >
+      <div class="col s10 offset-s1 l6 offset-l3">
+        <div class="card blue lighten-1 ">
           <div class="card-content white-text">
             <span class="card-title">Portfolio</span>
             <p>This is stricly frontend application. It is written in HTML with SCSS and Materialize
@@ -117,7 +104,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s10 offset-s1 l6 offset-l4 ">
+      <div class="col s10 offset-s1 l6 offset-l9 ">
         <div class="card blue ">
           <div class="card-content white-text">
             <span class="card-title">Hotel managment</span>
@@ -133,7 +120,7 @@
     </div>
 
     <div class="row">
-      <div class="col s10 offset-s1 l6 offset-l2 ">
+      <div class="col s10 offset-s1 l6 offset-l3 ">
         <div class="card blue lighten-1">
           <div class="card-content white-text">
             <span class="card-title">Library managment application</span>
@@ -150,12 +137,12 @@
 
 
     <div class="row">
-      <div class="col s10 offset-s1 l6 offset-l4 ">
+      <div class="col s10 offset-s1 l6 offset-l9 ">
         <div class="card blue ">
           <div class="card-content white-text ">
             <span class="card-title">Dom aplication</span>
             <p>These are frontend applications, written in HTML with CSS3.
-              For DOM manupilation I used vanila JS. Some of them also use REST API.  
+              For DOM manupilation I used vanila JS. Some of them also use REST API.
               Some of them are:
             <ul>
               <li>My resume</li>
@@ -228,7 +215,7 @@
       </div>
     </div>
     </div>
-
+    <!-- 
     <div class="row">
       <div class="col s10 offset-s1 l6 offset-l2 ">
         <div class="card blue lighten-1">
@@ -242,20 +229,23 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
-      <div class="col s10 offset-s1 l6 offset-l4 ">
+      <div class="col s12 l6 offset-l4 ">
         <div class="card blue">
           <div class="card-content white-text">
             <span class="card-title">Excel app</span>
-            <p>This is frontend application. For frontend I used html, for styling I used CSS3 and for DBMS I used Google Sheet.
+            <p>This is frontend application. For frontend I used html, for styling I used CSS3 and for DBMS I used
+              Google Sheet.
             </p>
             <p>Seperatly I created similiar app using only Google Sheet.</p>
             <div class="card-action">
               <a href="https://monitoring-community-service-hours.netlify.app/">Link to Website</a>
               <a href="https://github.com/adis-aljic/pracenjeVolonterskihSatiBILDIT">Link to GitHub</a>
-              <a href="https://docs.google.com/spreadsheets/d/1hTFTbYVBBOiMuALs6C4Ms-27QvEw8VF-77VhW-8t0oo/edit?usp=sharing">Link to Excel app</a>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1hTFTbYVBBOiMuALs6C4Ms-27QvEw8VF-77VhW-8t0oo/edit?usp=sharing">Link
+                to Excel app</a>
             </div>
           </div>
         </div>
@@ -275,21 +265,21 @@
           <ul id="contact_list">
 
             <li class="flow-text text-contact">Contact me via</li>
-         
-            <li><a href="mailto:adis.qm@gmail.com" class=" btn-floating btn-small red darken-4" title="adis.qm@gmail.com" 
-                data-tooltip="Gmail">
+
+            <li><a href="mailto:adis.qm@gmail.com" class=" btn-floating btn-small red darken-4"
+                title="adis.qm@gmail.com" data-tooltip="Gmail">
                 <i class="material-icons">email</i>
               </a></li>
-            <li><a href="https://www.facebook.com/adis.aljic/" title="Facebook" class=" btn-floating btn-small blue darken-4" 
-                data-tooltip="Facebook">
+            <li><a href="https://www.facebook.com/adis.aljic/" title="Facebook"
+                class=" btn-floating btn-small blue darken-4" data-tooltip="Facebook">
                 <i class="fab fa-facebook"></i>
               </a></li>
-            <li><a href="https://github.com/adis-aljic" title="Github" class=" btn-floating btn-small black darken-4" 
+            <li><a href="https://github.com/adis-aljic" title="Github" class=" btn-floating btn-small black darken-4"
                 data-tooltip="Github">
                 <i class="fab fa-github"></i>
               </a></li>
-            <li><a href="https://www.linkedin.com/in/adis-aljic-056b13239/" class=" btn-floating btn-small blue darken-4" 
-              title="Linkedin">
+            <li><a href="https://www.linkedin.com/in/adis-aljic-056b13239/"
+                class=" btn-floating btn-small blue darken-4" title="Linkedin">
                 <i class="fab fa-linkedin"></i>
               </a></li>
 
