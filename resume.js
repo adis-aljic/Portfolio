@@ -11,6 +11,9 @@ $(document).ready(()=>{
     )
     $(`#contact_list_icons li:odd`).css("margin","0 1rem 0 1rem")
     $(`#contact_list_text li:first`).css("margin-left","1rem")
+    $('#education_modal').modal();
+    $('#experience_modal').modal();
+
     
 
 });

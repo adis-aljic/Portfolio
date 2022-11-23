@@ -12,6 +12,13 @@ $background: (linear-gradient(34deg, rgba(200,228,255,1) 4%, rgba(126,135,245,1)
     margin: 0;
     padding: 0;
 }
+#a{
+    color:white;
+    
+}
+#a:hover{
+    color: blue;
+}
 .lang_list{
     color: white;
     @include flex-center(row);
@@ -71,3 +78,6 @@ padding-bottom: 1rem;
     border-radius: 15px;
 }
 
+a{
+    text-decoration: none;
+}

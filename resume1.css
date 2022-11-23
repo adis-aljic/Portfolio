@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./img/1___________________________________1____________4.jpg");
+  background-size: cover;
+}
+
+#aboutme {
+  text-align: justify;
+}
+
+header {
+  min-height: 800px;
+}
+header .brand-logo {
+  padding: 1rem;
+}
+header nav {
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+}
+header img {
+  border-radius: 25px;
+  width: 25rem;
+}
+header p {
+  margin-top: 15rem;
+  float: left;
+  text-align: justify;
+  color: white;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+header ul li {
+  padding-left: 1rem;
+}
+
+#education h1 {
+  font-size: 5rem;
+  color: wheat;
+}
+#education li {
+  list-style-type: disc;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: white;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+  .section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+}
+footer img {
+  margin-right: 2rem;
+  padding: 1rem 0 1rem 0;
+  float: right;
+  width: 4rem;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#experience h1 {
+  color: wheat;
+  text-align: center;
+}
+#experience p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+#education_modal, #experience_modal {
+  border-radius: 10px;
+  padding: 1rem;
+}
+#education_modal li, #experience_modal li {
+  line-height: 2rem;
+  color: black;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  list-style-type: square;
+  text-align: justify;
+}/*# sourceMappingURL=resume1.css.map */

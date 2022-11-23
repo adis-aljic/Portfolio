@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+#a {
+  color: white;
+}
+
+#a:hover {
+  color: blue;
+}
+
 .lang_list {
   color: white;
   display: flex;
@@ -70,4 +78,8 @@ li {
 
 #profile_img {
   border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */
