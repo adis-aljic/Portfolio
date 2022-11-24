@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -25,23 +26,33 @@ header nav {
 }
 header img {
   border-radius: 25px;
-  width: 25rem;
+}
+header .images {
+  margin-top: 15rem;
 }
 header p {
   margin-top: 15rem;
   float: left;
   text-align: justify;
   color: white;
+  font-family: "Poppins", "Courier New", Courier, monospace;
 }
-header ul {
+
+.icons ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 1rem;
 }
-header ul li {
+.icons ul li {
   padding-left: 1rem;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #education h1 {
@@ -96,4 +107,10 @@ footer ul {
   margin-left: 1rem;
   list-style-type: square;
   text-align: justify;
+}
+
+#mobile-menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }/*# sourceMappingURL=resume1.css.map */

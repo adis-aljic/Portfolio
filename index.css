@@ -82,4 +82,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+#mobile-menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }/*# sourceMappingURL=index.css.map */
