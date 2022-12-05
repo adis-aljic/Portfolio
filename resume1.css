@@ -113,4 +113,8 @@ footer ul {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+#resume_icons_contact li {
+  padding: 0.3rem;
 }/*# sourceMappingURL=resume1.css.map */
